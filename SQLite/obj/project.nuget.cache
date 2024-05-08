@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "AjNoN/3YGk4gfyuLwtUmvn7sy8Say7VEzkjsaGa3K+slDc+1OBhO86fLxiNQZNZxctsrXdogORxab5nznUVxpg==",
+  "success": true,
+  "projectFilePath": "/Users/aleksandraignacyk/Studia/semestr3/pz2/lab8/lab8.csproj",
+  "expectedPackageFiles": [
+    "/Users/aleksandraignacyk/.nuget/packages/microsoft.data.sqlite/7.0.4/microsoft.data.sqlite.7.0.4.nupkg.sha512",
+    "/Users/aleksandraignacyk/.nuget/packages/microsoft.data.sqlite.core/7.0.4/microsoft.data.sqlite.core.7.0.4.nupkg.sha512",
+    "/Users/aleksandraignacyk/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.4/sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
+    "/Users/aleksandraignacyk/.nuget/packages/sqlitepclraw.core/2.1.4/sqlitepclraw.core.2.1.4.nupkg.sha512",
+    "/Users/aleksandraignacyk/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.4/sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
+    "/Users/aleksandraignacyk/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.4/sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+    "/Users/aleksandraignacyk/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

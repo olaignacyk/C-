@@ -1,0 +1,14 @@
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/bin/Debug/net7.0/zad3
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/bin/Debug/net7.0/zad3.deps.json
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/bin/Debug/net7.0/zad3.runtimeconfig.json
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/bin/Debug/net7.0/zad3.dll
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/bin/Debug/net7.0/zad3.pdb
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/obj/Debug/net7.0/zad3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/obj/Debug/net7.0/zad3.AssemblyInfoInputs.cache
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/obj/Debug/net7.0/zad3.AssemblyInfo.cs
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/obj/Debug/net7.0/zad3.csproj.CoreCompileInputs.cache
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/obj/Debug/net7.0/zad3.dll
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/obj/Debug/net7.0/refint/zad3.dll
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/obj/Debug/net7.0/zad3.pdb
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/obj/Debug/net7.0/zad3.genruntimeconfig.cache
+/Users/aleksandraignacyk/Studia/pz2/lab1/zad3/obj/Debug/net7.0/ref/zad3.dll

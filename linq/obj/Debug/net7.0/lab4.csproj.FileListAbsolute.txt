@@ -1,0 +1,14 @@
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/bin/Debug/net7.0/lab4
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/bin/Debug/net7.0/lab4.deps.json
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/bin/Debug/net7.0/lab4.runtimeconfig.json
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/bin/Debug/net7.0/lab4.dll
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/bin/Debug/net7.0/lab4.pdb
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/obj/Debug/net7.0/lab4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/obj/Debug/net7.0/lab4.AssemblyInfoInputs.cache
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/obj/Debug/net7.0/lab4.AssemblyInfo.cs
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/obj/Debug/net7.0/lab4.csproj.CoreCompileInputs.cache
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/obj/Debug/net7.0/lab4.dll
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/obj/Debug/net7.0/refint/lab4.dll
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/obj/Debug/net7.0/lab4.pdb
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/obj/Debug/net7.0/lab4.genruntimeconfig.cache
+/Users/aleksandraignacyk/Studia/semestr3/pz2/lab4/obj/Debug/net7.0/ref/lab4.dll

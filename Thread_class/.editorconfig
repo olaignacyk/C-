@@ -1,0 +1,4 @@
+[*.cs]
+
+# SYSLIB0006: Typ lub składowa jest przestarzała
+dotnet_diagnostic.SYSLIB0006.severity = silent

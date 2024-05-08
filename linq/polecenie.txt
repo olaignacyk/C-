@@ -1,0 +1,39 @@
+1. odwzoruj rekordy danych z plikĂłw regions.csv, territories.csv, employee_territories.csv, employees.csv przy pomocy odpowiednich klas. Dla uproszczenia uznaj, Ĺźe kaĹźde pole jest typu String. Wczytaj wszystkie dane do czterech kolekcji typu List zawierajÄcych obiekty tych klas. 
+
+Wygodnym sposobem wczytania moĹźe byÄ stworzenie uniwersalnej klasy wczytujÄcej, ktĂłra przy wczytywaniu rekordĂłw bÄdzie korzystaÄ z metody, do ktĂłrej przekazywany bÄdzie delegat tworzÄcy obiekt odpowiedniej klasy, np.:
+
+```cs
+
+class wczytywacz<T>
+{
+    public List<T> wczytajListe(String path, Func<String[], T> generuj)
+    {
+        //...
+    }
+}
+
+```
+
+PrzykĹadowe wywoĹanie:
+
+```cs
+
+wczytywacz<OrderDetails> od = new wczytywacz<OrderDetails>();
+List<OrderDetails>lOrderDetailss = od.wczytajListe("c:\\projekt04\\cvs\\orders_details.csv",
+    x => new OrderDetails(x[0], x[1], x[2], x[3], x[4]));
+
+```
+
+Gdzie OrderDetails jest konstruktorem klasy, x to tablica String ze sparsowanymi polami rekordĂłw. PowyĹźszy sposĂłb to tylko sugestia - dane proszÄ wczytaÄ w dowolny sposĂłb.
+
+Po wczytaniu wielokrotnie bÄdziemy wybieraÄ dane z list przy pomocy LINQ i wypisywaÄ rekordy do konsoli. W niektĂłrych przypadkach lista bÄdzie juĹź gotowa i nie bÄdzie trzeba dokonywaÄ na niej Ĺźadnej selekcji a jedynie wypisanie. W wypadku wypisywania danych pracownika moĹźna zwrĂłciÄ np. jego nazwisko albo identyfikator. W wypadku pozostaĹych kolekcji proszÄ zwracaÄ pole opisowe (nie identyfikator).
+
+2.  wybierz nazwiska wszystkich pracownikĂłw.
+
+3.  wypisz nazwiska pracownikĂłw oraz dla kaĹźdego z nich nazwÄ regionu i terytorium gdzie pracuje. Rezultatem kwerendy LINQ bÄdzie "pĹaska" lista, wiÄc nazwiska mogÄ siÄ powtarzaÄ (ale kaĹźdy rekord bÄdzie unikalny).
+
+4.  wypisz nazwy regionĂłw oraz nazwiska pracownikĂłw, ktĂłrzy pracujÄ w tych regionach, pracownicy majÄ byÄ zagregowani po regionach, rezultatem ma byÄ lista regionĂłw z podlistÄ pracownikĂłw (odpowiednik groupjoin).
+
+5. wypisz nazwy regionĂłw oraz liczbÄ pracownikĂłw w tych regionach.
+
+6.wczytaj do odpowiednich struktur dane z plikĂłw orders.csv oraz orders_details.csv. NastÄpnie dla kaĹźdego pracownika wypisz liczbÄ dokonanych przez niego zamĂłwieĹ, ĹredniÄ wartoĹÄ zamĂłwienia oraz maksymalnÄ wartoĹÄ zamĂłwienia.
